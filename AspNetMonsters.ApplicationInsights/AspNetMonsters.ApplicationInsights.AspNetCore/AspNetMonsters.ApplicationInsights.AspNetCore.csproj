@@ -1,13 +1,13 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <PublisherName>ASP.NET Monsters</PublisherName>
-    <PackageId>AspNetMonsters.ApplicationInsights</PackageId>
+
+    <PackageId>AspNetMonsters.ApplicationInsights.AspNetCore</PackageId>
     <Version>1.0.0.0</Version>
     <Copyright>ASP.NET Monsters 2019</Copyright>
-    <Title>Application Insights Extensions</Title>
-    <Description>A collection of telemetry intializers to help you get the most out of Application Insights in your .NET Core applications</Description>
+    <Title>Application Insights Extensions for ASP.NET Core</Title>
+    <Description>A collection of telemetry intializers to help you get the most out of Application Insights in your ASP.NET Core applications</Description>
     <Authors>David Paquette</Authors>
     <PackageTags>AspNetCore;Application Insights;App Insights;NetCore;Telemetry</PackageTags>
     <PackageProjectUrl>https://github.com/AspNetMonsters/ApplicationInsights</PackageProjectUrl>
@@ -15,7 +15,13 @@
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>git://github.com/AspNetMonsters/ApplicationInsights</RepositoryUrl>
   </PropertyGroup>
-  
+
   <ItemGroup>
-    <PackageReference Include="Microsoft.ApplicationInsights" Version="2.12.0" />
-  </ItemGroup></Project>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AspNetMonsters.ApplicationInsights\AspNetMonsters.ApplicationInsights.csproj" />
+  </ItemGroup>
+
+</Project>
