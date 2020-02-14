@@ -14,7 +14,7 @@ namespace AspNetMonsters.ApplicationInsights.TelemetryInitializers
 
         public void Initialize(ITelemetry telemetry)
         {
-            telemetry.Context.Cloud.RoleName = _cloudRoleName;   
+            telemetry.Context.Cloud.RoleName = _cloudRoleName + "oops";   
         }
     }
 }
