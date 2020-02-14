@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29609.76
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetMonsters.ApplicationInsights", "AspNetMonsters.ApplicationInsights\AspNetMonsters.ApplicationInsights.csproj", "{82086638-8B0A-45D6-A5DB-128CBAEE32F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetMonsters.ApplicationInsights.AspNetCore", "AspNetMonsters.ApplicationInsights.AspNetCore\AspNetMonsters.ApplicationInsights.AspNetCore.csproj", "{E262BD41-CD71-4BF6-81AF-8983B79D715D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetMonsters.ApplicationInsights.AspNetCore", "AspNetMonsters.ApplicationInsights.AspNetCore\AspNetMonsters.ApplicationInsights.AspNetCore.csproj", "{E262BD41-CD71-4BF6-81AF-8983B79D715D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetMonsters.ApplicationInsights.Tests", "AspNetMonsters.ApplicationInsights.Tests\AspNetMonsters.ApplicationInsights.Tests.csproj", "{28171B06-62C4-4721-B474-46878B3F9E0D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{E262BD41-CD71-4BF6-81AF-8983B79D715D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E262BD41-CD71-4BF6-81AF-8983B79D715D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E262BD41-CD71-4BF6-81AF-8983B79D715D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28171B06-62C4-4721-B474-46878B3F9E0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28171B06-62C4-4721-B474-46878B3F9E0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28171B06-62C4-4721-B474-46878B3F9E0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28171B06-62C4-4721-B474-46878B3F9E0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
