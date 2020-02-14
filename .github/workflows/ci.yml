@@ -21,8 +21,8 @@ jobs:
         dotnet-version: 3.1.101
     - name: Build with dotnet
       run: dotnet build --configuration Release
-      working-directory: .\AspNetMonsters.ApplicationInsights
+      working-directory: ./AspNetMonsters.ApplicationInsights
     - name: Test
       run: dotnet test
-      working-directory: .\AspNetMonsters.ApplicationInsights
+      working-directory: ./AspNetMonsters.ApplicationInsights
       
