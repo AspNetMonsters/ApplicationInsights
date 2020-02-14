@@ -1,3 +1,5 @@
+![Build status](https://github.com/AspNetMonsters/ApplicationInsights/workflows/Continuous%20Integration/badge.svg)
+
 # ApplicationInsights
 A collection of Telemetry Initializers to help you get the most out of Application Insights for .NET Core and ASP.NET Core apps
 
